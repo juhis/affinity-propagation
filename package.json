@@ -1,0 +1,27 @@
+{
+    "name": "affinity-propagation",
+    "version": "0.0.1",
+    "description": "Affinity propagation clustering (Frey & Dueck, Science 2007)",
+    "repository" : { "type" : "git"
+                     , "url" : "https://github.com/juhis/affinity-propagation"
+                   }
+    "main": "src/affinityPropagation.js",
+    "scripts": {
+        "test": "node_modules/mocha/bin/mocha"
+    },
+    "keywords": [
+        "clustering",
+        "affinity",
+        "propagation"
+    ],
+    "author": "Juha Karjalainen",
+    "devDependencies": {
+        "async": "^1.5.0",
+        "mocha": "^2.3.4",
+        "should": "^7.1.1",
+        "split": "^1.0.0"
+    },
+    "dependencies": {
+        "lodash": "^3.10.1"
+    }
+}
