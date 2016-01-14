@@ -4,7 +4,7 @@
     "description": "Affinity propagation clustering (Frey & Dueck, Science 2007)",
     "repository" : { "type" : "git"
                      , "url" : "https://github.com/juhis/affinity-propagation"
-                   }
+                   },
     "main": "src/affinityPropagation.js",
     "scripts": {
         "test": "node_modules/mocha/bin/mocha"
